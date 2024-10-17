@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+    <script src="Ejercicios.js" defer></script>
+</head>
+<body onmousemove="coordenadas(event)">
+    <h1>Ejercicio 1</h1>
+    <div onclick="ejercicio1()">
+        "Pulsa aquí"
+    </div>
+    <h1>Ejercicio 2</h1>
+    <div id="pasarPorEncima">
+        Pasa por aquí
+        <div id="efecto">
+            Efectos del movimiento
+        </div>
+    </div>
+    <h1>Ejercicio 3</h1>
+    <form>
+        <input id="precio" type="number"><br>
+        <input id="cantidad" type="number"><br>
+        <input type="button" id="enviar" value="Calcular">
+        <input id="total" readonly>
+    </form>
+    <h1>Ejercicio 4</h1>
+    <div id="cuadro">
+        Cuadro que cambia al entrar el ratón
+    </div>
+    <h1>Ejercicio 5</h1>
+    <style>
+        .boton{display:block; width:100px;cursor:pointer;margin: 10px;border:1px solid black}
+    </style>
+    <body>
+        <div id="boton1" class="boton" onclick="pulsar(this)">Pulsar aquí</div>
+        <div id="boton2" class="boton" onclick="pulsar(this)">Pulsar aquí</div>
+    </body>
+    <h1>Ejercicio 6</h1>
+    <label>Coordenada X</label>
+    <div><input id="cX"> </div>
+    <label>Coordenada Y</label>
+    <div"><input id="cY"> </div>
+    <h1>Ejercicio 7</h1>
+    <style>
+        div{ width: 100px; height:100px;}
+        </style>
+    <div id="c1" style="background: red"></div>
+    <div id="c2" style="background: white"></div>
+    <div id="c3" style="background: blue"></div>    
+</body>
+</html>
