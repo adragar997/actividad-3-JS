@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" onkeydown="mostrarBloques(event)">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicios</title>
     <script src="Ejercicios.js" defer></script>
+    <style>
+        .oculto{ display: none}
+        .visible {display:block}   
+    </style>
 </head>
 <body onmousemove="coordenadas(event)">
     <h1>Ejercicio 1</h1>
@@ -48,6 +52,23 @@
         </style>
     <div id="c1" style="background: red"></div>
     <div id="c2" style="background: white"></div>
-    <div id="c3" style="background: blue"></div>    
+    <div id="c3" style="background: blue"></div>
+    <h1>Ejercicio 8</h1> 
+    <div class="oculto" id="ficha1">
+        Hola, soy el bloque 1
+    </div>
+    <div class="oculto" id="ficha2">
+        Hola, soy el bloque 2
+    </div>
+    <div class="oculto" id="ficha3">
+        Hola, soy el bloque 3
+    </div>
+    <h1>Ejercicio 9</h1>
+    <div id="boton" style="display: none;">Boton</div>
+    <h1>Ejercicio 10</h1>
+    <form>
+        <label>No se aceptan dígitos</label>
+        <input type="text" id="letras" pattern="^[0-9]">
+    </form>
 </body>
 </html>
