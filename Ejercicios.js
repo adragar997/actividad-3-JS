@@ -93,13 +93,19 @@ let bloque3 = document.getElementById("ficha3")
 
 function mostrarBloques(tecla){
     if (tecla.code == "Digit1"){
-        bloque1.style.display = "block"
+        bloque1.style.display = "block";
+        bloque2.style.display = "none";
+        bloque3.style.display = "none";
     }
     if (tecla.code == "Digit2"){
-        bloque2.style.display = "block"
+        bloque1.style.display = "none";
+        bloque2.style.display = "block";
+        bloque3.style.display = "none";
     }
     if (tecla.code == "Digit3"){
-        bloque3.style.display = "block"
+        bloque1.style.display = "none";
+        bloque2.style.display = "none";
+        bloque3.style.display = "block";
     }
 }
 
