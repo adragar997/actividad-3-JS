@@ -1,17 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Ejercicio 1
 function ejercicio1(){
     alert("Pulsaste sobre el botón")
